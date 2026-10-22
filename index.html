@@ -1,4 +1,10 @@
-<title>Who are you in the Phantom Troupe HxH ?</title>
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>body{margin:0}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style>
+<title>แบบทดสอบ กองโจรเงามายา ฉบับชาว ออฟฟิศ</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -191,6 +197,21 @@ body[data-spoil="on"] .sp-hint{display:none}
   .brow{grid-template-columns:84px 1fr 34px;gap:8px}
   details.m>summary{grid-template-columns:60px 1fr;gap:10px}
   .mno{font-size:26px}
+}
+@media (min-width:768px){
+  body{font-size:17px}
+  .wrap{max-width:860px;padding-block:24px 80px}
+  .lead{font-size:20px}
+  .qtext{font-size:32px}
+  .opt{padding:16px 20px}
+  .card{padding:24px}
+  .tbody{padding:24px 26px}
+  .ticket{grid-template-columns:132px 1fr}
+  .brow{grid-template-columns:130px 1fr 42px}
+}
+@media (min-width:1100px){
+  .wrap{max-width:960px}
+  .mosaic{grid-template-columns:repeat(7,1fr);gap:22px 14px}
 }
 @media (prefers-reduced-motion:no-preference){
   .rise{animation:rise .35s ease-out both}
@@ -1064,3 +1085,6 @@ buildRoster();
 buildMosaic();
 show(location.hash==='#roster'?'roster':'intro');
 </script>
+
+</body>
+</html>
